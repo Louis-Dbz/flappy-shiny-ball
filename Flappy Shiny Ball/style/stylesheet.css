@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.cursorNone {
+    cursor: none;
+}
+
+.cursorDefault {
+    cursor: default;
+}
+
+@font-face {
+    font-family: "DotGothic16";
+    src: url("police/DotGothic16-Regular.ttf") format("truetype");
+}
+
+#canvas {
+    position: relative;
+    z-index: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    zoom: 100%;
+}
